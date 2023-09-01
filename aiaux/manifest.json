@@ -1,0 +1,26 @@
+{
+    "name": "AI Aux",
+    "description": "Open Source version of AI Aux to enable AI on any website.",
+    "version": "0.1.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons": {
+       "16": "16.png",
+       "32": "32.png",
+       "48": "48.png",
+       "128": "128.png"
+     },
+    "action": {
+        "default_popup": "html/popup.html"
+    },
+    "permissions": [
+        "activeTab", 
+        "scripting"
+    ],
+    "host_permissions": [
+      "*://*/*"
+    ]
+}
