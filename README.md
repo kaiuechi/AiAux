@@ -4,7 +4,7 @@
 
 This repo contains the open source version of AiAux -- a Chrome Extension that will allow you to query generative AI in existing/legacy web apps, without leaving the page.  Once installed, the extension will let you type <code>/ai your prompt here //</code>, where "your prompt here" is used to query the AI to generate a response -- for example, you could use it within Gmail, and enter something like <code>/ai write me a brief email in a helpful and friendly tone asking about next steps in my internship application // </code>.
 
-## How To Install
+## How To Install 
 
  * <a href="https://github.com/kaiuechi/AiAux/archive/refs/heads/main.zip">Download</a> this repo
  * Unzip what you downloaded
